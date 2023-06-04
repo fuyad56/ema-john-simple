@@ -1,0 +1,9 @@
+.shop-container-1 {
+    display: flex;
+}
+
+.shop-container-text {
+    width: 70%;
+    margin: 0 10px 0px 20px;
+    border-right: 2px solid gray;
+}
