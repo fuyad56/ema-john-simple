@@ -13,15 +13,15 @@ const Product = (props) => {
                 <img src={img} alt="" />
             </div>
             <div className="product-container-text">
-                <h5>{name}</h5>
+                <h5 className='text-primary'>{name}</h5>
                 <p>
                     <small>By: {seller}</small>
                 </p>
-                <p>{price}</p>
+                <p>${price}</p>
                 <p>
                     <small>Only {stock} left in stock-Order soon</small>
                 </p>
-                <button onClick={ () => handleAddToCart(props.product)}>
+                <button onClick={ () => handleAddToCart(props.product)} className='bg-warning'>
                     <FontAwesomeIcon icon={faShoppingCart} /> Add to Cart
                 </button>
             </div>

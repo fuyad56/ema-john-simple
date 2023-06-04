@@ -10,7 +10,7 @@
 }
 
 .product-container-text h5 {
-    color: rgb(56, 56, 214);
+    cursor: pointer;
 }
 
 .product-container-text p {
@@ -21,7 +21,6 @@
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid lightgray;
-    background-color: #F0C14B;
     box-shadow: 2px 2px 2px lightgray;
     cursor: pointer;
     transition: 0.1s linear;

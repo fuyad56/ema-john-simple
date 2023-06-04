@@ -1,0 +1,12 @@
+.cart-container-text button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px lightgray;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.cart-container-text button:active {
+    transform: scale(0.9);
+}
